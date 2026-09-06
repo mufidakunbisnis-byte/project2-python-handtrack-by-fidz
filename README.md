@@ -5,6 +5,7 @@ Aplikasi filter kamera interaktif menggunakan gerakan tangan (hand tracking) den
 
 # Persyaratan Sistem
 -Python 3.7 atau lebih baru
+
 -Webcam
 
 # 1. Cara Install dan Menjalankan
@@ -15,7 +16,7 @@ cd <NAMA_FOLDER_REPO>'''
 
 ## 2. Buat Lingkungan Virtual (Opsional tapi Sangat Disarankan)
 Gunakan lingkungan virtual agar dependensi (perpustakaan) tidak bertabrakan dengan proyek Python lainnya di komputer Anda.
-'''# Untuk Windows
+```# Untuk Windows
 python -m venv venv
 venv\Scripts\activate
 
