@@ -38,3 +38,18 @@ Aplikasi ini membutuhkan dua file model dari MediaPipe yang seharusnya sudah ada
 hand_landmarker.task(Untuk mendeteksi titik di tangan)
 selfie_segmenter.tflite(Untuk memfilter Galaxy / memisahkan latar belakang)
 Jika file tersebut belum ada, pastikan untuk menempatkannya di dalam folder yang sama dengan file `main.py.`
+
+## 5. Jalankan Aplikasi
+Jalankan skrip utamanya dengan mengetik:
+``` python main.py ```
+(Gunakan `python3 main.py` jika Anda menggunakan macOS/Linux dan tidak menggunakan lingkungan virtual)
+
+## Cara Penggunaan Fitur
+- Membuka Portal: Gunakan ujung telunjuk dan jempol dari kedua tangan Anda di kamera depan (total 4 jari). Sebuah portal berbentuk persegi empat akan terbentuk di antara keempat jari Anda, dan efek filter akan muncul di dalamnya.
+- Mengganti Filter: Ada beberapa cara untuk mengganti filter yang sedang aktif:
+Sentuhkan/dekatkan ujung jempol dan jari kelingking Anda.
+
+Atau, dekatkan ujung telunjuk dari kedua tangan Anda.
+- Menutup Aplikasi: Pastikan jendela kamera/Retrolens sedang aktif (diklik), kemudian tekan tombol qpada keyboard Anda untuk keluar dari aplikasi.
+
+"Catatan:" Pastikan ruangan memiliki pencahayaan yang cukup agar deteksi tangan dari kamera dapat bekerja dengan optimal.
