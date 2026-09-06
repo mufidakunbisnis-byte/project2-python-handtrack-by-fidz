@@ -8,5 +8,5 @@ Aplikasi filter kamera interaktif menggunakan gerakan tangan (hand tracking) den
 -Webcam
 
 # Cara Install dan Menjalankan
-# 1. Kloning Repositori
+## 1. Kloning Repositori
 Pertama, clone repositori ini ke komputer Anda dan masuk ke foldernya (ganti URL dengan link repositori GitHub Anda):
