@@ -28,8 +28,10 @@ source venv/bin/activate
 
 ## 3. Instal Dependensi
 Instal semua perpustakaan Python yang dibutuhkan dengan menjalankan perintah berikut:
+
 ``` pip install -r requirements.txt ```
 Atau jika Anda ingin menginstalnya secara manual satu per satu:
+
 ```pip install opencv-python mediapipe numpy ```
 
 ## 4. Pastikan Model MediaPipe Tersedia
@@ -41,7 +43,9 @@ Jika file tersebut belum ada, pastikan untuk menempatkannya di dalam folder yang
 
 ## 5. Jalankan Aplikasi
 Jalankan skrip utamanya dengan mengetik:
+
 ``` python main.py ```
+
 (Gunakan `python3 main.py` jika Anda menggunakan macOS/Linux dan tidak menggunakan lingkungan virtual)
 
 ## Cara Penggunaan Fitur
