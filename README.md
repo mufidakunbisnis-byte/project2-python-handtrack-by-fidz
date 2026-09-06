@@ -11,8 +11,9 @@ Aplikasi filter kamera interaktif menggunakan gerakan tangan (hand tracking) den
 # 1. Cara Install dan Menjalankan
 ## 1. Kloning Repositori
 Pertama, clone repositori ini ke komputer Anda dan masuk ke foldernya (ganti URL dengan link repositori GitHub Anda):
-'''git clone <URL_GITHUB_ANDA>
-cd <NAMA_FOLDER_REPO>'''
+```
+git clone <URL_GITHUB_ANDA>
+cd <NAMA_FOLDER_REPO> ```
 
 ## 2. Buat Lingkungan Virtual (Opsional tapi Sangat Disarankan)
 Gunakan lingkungan virtual agar dependensi (perpustakaan) tidak bertabrakan dengan proyek Python lainnya di komputer Anda.
@@ -22,17 +23,18 @@ venv\Scripts\activate
 
 # Untuk macOS / Linux
 python3 -m venv venv
-source venv/bin/activate'''
+source venv/bin/activate
+```
 
 ## 3. Instal Dependensi
 Instal semua perpustakaan Python yang dibutuhkan dengan menjalankan perintah berikut:
-'''pip install -r requirements.txt'''
+``` pip install -r requirements.txt ```
 Atau jika Anda ingin menginstalnya secara manual satu per satu:
-'''pip install opencv-python mediapipe numpy'''
+```pip install opencv-python mediapipe numpy ```
 
 ## 4. Pastikan Model MediaPipe Tersedia
 Aplikasi ini membutuhkan dua file model dari MediaPipe yang seharusnya sudah ada di dalam repositori ini:
 
 hand_landmarker.task(Untuk mendeteksi titik di tangan)
 selfie_segmenter.tflite(Untuk memfilter Galaxy / memisahkan latar belakang)
-Jika file tersebut belum ada, pastikan untuk menempatkannya di dalam folder yang sama dengan file ''main.py.''
+Jika file tersebut belum ada, pastikan untuk menempatkannya di dalam folder yang sama dengan file `main.py.`
